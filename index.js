@@ -6,7 +6,9 @@ var app = express();
 
 
 
-app.use(express.static('public'));
+
+
+app.use('/', express.static('public'));
 
 app.set('port', (process.env.PORT || 3000));
 
