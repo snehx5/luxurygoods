@@ -10,7 +10,7 @@ var app = express();
 
 app.use(express.static('public'));
 
-app.set('port', (process.env.PORT);
+app.set('port', (process.env.PORT|| 8888);
 
 app.listen(app.get('port'), function() {
     console.log("App running on port : ", app.get('port'));
