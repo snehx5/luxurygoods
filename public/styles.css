@@ -175,6 +175,54 @@ footer{
   height:300px;
 }
 
+#left-panel{
+  height:500px;
+  width:20%;
+  float:left;
+  /*background-color:pink;*/
+}
+
+#left-panel ul li{
+  display:block;
+}
+
+#left-panel h3{
+  margin-bottom:30px;
+}
+
+#left-panel ul{
+  width:100%;
+  margin-left:0;
+  padding:5%;
+  margin:10%;
+}
+
+
+.right-panel{
+  height:400px;
+  width:80%;
+  background-color:red;
+  float:right;
+  border:solid white 2px;
+}
+
+#left-panel, .right-panel{
+  display:inline-block;
+}
+
+a{
+  color:black;
+}
+
+.right-panel .col-md-3{
+  background-color:dimgrey;
+  border:solid white 3px;
+}
+
+#product-footer{
+  margin-top:1000px;
+}
+
 @media only screen and (max-width: 1000px) {
   #item-panel{
      height:2000px;
